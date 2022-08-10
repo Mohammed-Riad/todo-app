@@ -25,11 +25,9 @@ else if(gender =="male")
     alert("")
 }
 
-let welcome =prompt("Do you want to skip the welcome");
-if(welcome  == "yes")
-{
+let welcome =confirm("Do you want to skip the welcome");
 
-}else if(welcome == "no")
+if(welcome)
 {
     if(gender=="fmale")
     {
