@@ -1,24 +1,16 @@
 
-
+debugger
 let name;
 name=prompt("what your name")
 let gender = prompt("what your gender");
 if(gender == "fmale")
 {
-    let age=prompt("what your age");
-   if(age <= 0)
-   {
-    alert("hamodeh")
-   }
+    age()
 
 }
 else if(gender =="male")
 {
-    let age=prompt("what your age");
-    if(age <= 0)
-    {
-     alert("hamodeh")
-    }
+    age()
 
 }else
 {
@@ -27,7 +19,7 @@ else if(gender =="male")
 
 let welcome =confirm("Do you want to skip the welcome");
 
-if(welcome)
+if(!(welcome))
 {
     if(gender=="fmale")
     {
@@ -35,5 +27,13 @@ if(welcome)
     }else if(gender == "male")
     {
         alert("Hello"+" "+"mr"+ " " +name)
+    }
+}
+function age()
+{
+    let age=prompt("what your age");
+    if(age <= 0)
+    {
+     alert("hamodeh")
     }
 }
