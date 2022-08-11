@@ -42,12 +42,6 @@ function age()
 
 
 
-
-
-
-
-
-
     let arr=[];
     let answer =prompt("are you an otaku")
     if(answer=="yes" || answer=="y" || answer=="no" ||answer=="n")
