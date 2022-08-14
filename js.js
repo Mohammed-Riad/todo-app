@@ -6,6 +6,7 @@ let gender = prompt("what your gender");
 if(gender == "fmale")
 {
     age()
+  
 
 }
 else if(gender =="male")
@@ -117,14 +118,17 @@ function age()
         
         
     }
-    console.log(arr)
+    for(let i=0;i<arr.length;i++)
+    {
+        console.log(arr[i])
+    }
 
 
 let star =prompt("how many star do you rate")
 if(star < 5)
 {
-    alert("why"+""+star)
+    alert("why"+" "+star)
 }else if(star >= 5)
 {
-alert("thxx for rate "+""+star)
+alert("thxx for rate "+" "+star)
 }

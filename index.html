@@ -6,10 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        .love h1
+        {
+            font-size: 250px;
+            color: deeppink;
+        }
+        .sec1
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .love > h1 > #i
+        {
+            animation-name: id;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        .love > h1 > #lovr
+        {
+            animation-name: id;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+        }
+        .love > h1 > #you
+        {
+            animation-name: id;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+        }
+
+        @keyframes id
+        {
+            100%{ color:aqua;}
+            200%{color: hotpink;}
+        }
+    </style>
 </head>
 <body>
 
-    <section class="sec1"></section>
+    <section class="sec1">
+        <div class="love"><h1><span id="i">I</span > <span id="lovr">Love</span><span id="you">you</span> </h1> </div>
+    </section>
     <script src="js.js"></script>
 </body>
 </html>
