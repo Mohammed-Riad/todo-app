@@ -127,8 +127,8 @@ function age()
 let star =prompt("how many star do you rate")
 if(star < 5)
 {
-    alert("why"+" "+"5")
+    alert("why"+" "+star)
 }else if(star >= 5)
 {
-alert("thxx for rate "+" "+star)
+alert("thxx for rate "+" "+"5")
 }
