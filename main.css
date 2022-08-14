@@ -6,10 +6,30 @@
 .sec1
 {
     width: 100%;
-    height: 100vh;
+    height: 745px;
     background-image: url(img/anya-forger-4k-deuteragonist-spy-x-family-manga\ -\ Copy.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) 
+{
+    .love >h1 > span
+    {
+        font-size: 130px;
+    }
+    
+}
+@media only screen and (max-width: 600px) 
+{
+    .love >h1 > span
+    {
+        font-size: 90px;
+    }
+    
 }
